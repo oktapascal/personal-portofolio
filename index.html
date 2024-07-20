@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portofolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="./assets/index.css" rel="stylesheet" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/index.js"></script>
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Okta</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-primary" type="button">
+            Contact Me
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="background-home" id="home">
+      <div class="d-flex flex-column">
+        <div class="avatar-container">
+          <img
+            alt="avatar"
+            src="./assets//images/my-avatar.jpg"
+            class="h-100 w-100"
+          />
+        </div>
+        <div class="d-flex flex-column align-content-center header-left">
+          <p>Hey, I am Okta</p>
+          <h1>
+            I create <span>web application</span> <br />
+            user experience
+          </h1>
+          <p>
+            With 4+ years of experience in web development and user experience
+            design, I bring a comprehensive approach to every project. My goal
+            is to deliver applications that are not only functional but also
+            user-friendly.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="d-flex flex-column section-title">
+        <p>My Skills</p>
+        <h1>My Expertise</h1>
+      </div>
+      <div class="skill-row">
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="html" src="./assets/images/html.svg" />
+          <h6>HTML</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="css" src="./assets/images/css.svg" />
+          <h6>CSS</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="javascript" src="./assets/images/javascript.svg" />
+          <h6>Javascript</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="typescript" src="./assets/images/typescript.svg" />
+          <h6>Typescript</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="php" src="./assets/images/php.svg" />
+          <h6>PHP</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="css" src="./assets/images/laravel.svg" />
+          <h6>Laravel</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="html" src="./assets/images/python.svg" />
+          <h6>Python</h6>
+        </div>
+        <div class="d-flex flex-column align-items-center w-100">
+          <img alt="css" src="./assets/images/react.svg" />
+          <h6>React</h6>
+        </div>
+      </div>
+    </section>
+    <section id="about-me">
+      <div class="d-flex flex-column section-title">
+        <p>About</p>
+        <h1>About Me</h1>
+      </div>
+      <p class="text-about-me">
+        Hi! I'm Okta, a web developer who enjoys turning ideas into reality
+        through code. My journey in web development has equipped me with skills
+        in Laravel, Python, and various JavaScript libraries. I am committed to
+        continuous learning and improvement, always staying up-to-date with the
+        latest industry trends. In my spare time, I like to tinker with new
+        programming languages and frameworks.<br /><br />Let's create something
+        great together!
+      </p>
+    </section>
+    <section id="portofolio">
+      <div class="d-flex flex-row justify-content-between section-title">
+        <div>
+          <p>Recent Projects</p>
+          <h1>My Portfolio</h1>
+        </div>
+        <a class="d-none" href="#">Visit My Github</a>
+      </div>
+      <div class="portfolio-row">
+        <div class="card portfolio-card">
+          <img alt="sima" src="./assets/images/sima.png" />
+          <div class="card-body">
+            <h6>Sistem Informasi Manajemen Aset (SIMA)</h6>
+            <p>
+              Aplikasi Manajemen Aset ini adalah solusi terpadu untuk mengelola
+              dan melacak berbagai jenis aset, termasuk gedung, lahan,
+              kendaraan, perangkat, dan aset lainnya. Dengan fitur canggih untuk
+              pemetaan aset, pelacakan penggunaan, dan pemeliharaan, aplikasi
+              ini membantu meningkatkan efisiensi operasional dan memastikan
+              aset-aset tersebut selalu dalam kondisi optimal. Fitur pelaporan
+              real-time dan analitik juga memungkinkan manajemen untuk membuat
+              keputusan yang lebih baik dan strategis berdasarkan data yang
+              akurat.
+            </p>
+          </div>
+        </div>
+        <div class="card portfolio-card">
+          <img alt="sima" src="./assets/images/financial-performance.png" />
+          <div class="card-body">
+            <h6>Financial Performance Dashboard</h6>
+            <p>
+              Dashboard Pemantauan Kinerja Keuangan adalah alat analisis yang
+              kuat yang dirancang untuk memberikan pandangan menyeluruh tentang
+              kesehatan keuangan bisnis Anda. Dengan tampilan visual yang
+              intuitif dan interaktif, dashboard ini menyediakan informasi
+              real-time mengenai pendapatan, pengeluaran, laba, dan indikator
+              keuangan penting lainnya. Fitur-fitur analitik canggih
+              memungkinkan Anda untuk memonitor tren, mengidentifikasi anomali,
+              dan membuat keputusan strategis yang tepat. Dengan akses mudah ke
+              data yang akurat dan relevan, dashboard ini membantu Anda menjaga
+              kinerja keuangan tetap optimal dan mendukung pertumbuhan bisnis
+              yang berkelanjutan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="w-100">
+      Okta Pascal Ibrahim &copy; <span id="release-year"></span>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+:root {
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --shade: #f5fcff;
+  --body: #1c1e53;
+  --github: #010409;
+}
+html {
+  font-size: 16px;
+}
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.navbar-brand {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+.navbar-nav .nav-link.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline-primary:hover {
+  color: var(--shade);
+  border-color: var(--body);
+  background-color: var(--body);
+}
+.avatar-container {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.avatar-container img {
+  border-radius: 0.75rem;
+}
+.background-home {
+  background-color: #f0f9ff;
+}
+section:not(:first-child) {
+  padding: 1rem;
+}
+.header-left p:first-of-type {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.header-left h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+.header-left span {
+  color: var(--primary);
+}
+.header-left p:last-of-type {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.section-title p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.section-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.skill-row {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 1rem;
+}
+.skill-row img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.skill-row h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.text-about-me {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.portfolio-row {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.portfolio-card img {
+  height: 12.5rem;
+}
+.portfolio-card h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.portfolio-card p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+footer {
+  border-top: 1px solid var(--body);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.675rem;
+}
